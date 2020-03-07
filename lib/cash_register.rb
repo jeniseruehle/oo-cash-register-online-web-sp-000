@@ -11,6 +11,7 @@ class CashRegister
     self.total += price * quantity
     quantity.times do 
       items << total
+    end 
   end 
   
   

@@ -13,6 +13,7 @@ class CashRegister
     if quantity > 1
       x = 0 
       while x < quantity
+      @items << item
     end 
   end 
   
